@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>University Website Design - Easy Tutorials</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome must be loaded in the <head> for star icons to work -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo.jpeg" alt="Logo" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>World's Biggest University</h1>
+      <p>Making websites is now one of the easiest things in the world. You just need to learn HTML, CSS, JavaScript and you're good to go.</p>
+      <a href="#" class="hero-btn">Visit us to know more</a>
+    </div>
+  </section>
+
+  <!-- Course Section -->
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+      <div class="course-column">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis illum obcaecati laborum id incidunt.</p>
+      </div>
+      <div class="course-column">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis illum obcaecati laborum id incidunt.</p>
+      </div>
+      <div class="course-column">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis illum obcaecati laborum id incidunt.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Campus Section -->
+  <section class="Campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+      <div class="campus-column">
+        <img src="images/CHICAGO.jpg" alt="Chicago Campus" />
+        <div class="layer">
+          <h3>CHICAGO</h3>
+        </div>
+      </div>
+      <div class="campus-column">
+        <img src="images/NEWYORK.jpg" alt="New York Campus" />
+        <div class="layer">
+          <h3>NEW YORK</h3>
+        </div>
+      </div>
+      <div class="campus-column">
+        <img src="images/CALIFORNIA.jpg" alt="California Campus" />
+        <div class="layer">
+          <h3>CALIFORNIA</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities Section -->
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/LIB.jpg" alt="Library" />
+        <h3>World Class Library</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/BASKETBALLPITCH.jpg" alt="Basketball Court" />
+        <h3>Largest Playground</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/cafeteria.jfif" alt="Cafeteria" />
+        <h3>Tasty and Healthy Food</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+      </div>
+    </div>
+  </section>
+  <!--------testimonials-------->
+<section class="testimonials">
+<h1>
+  What our Students say
+</h1>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+</p>
+<div class="row">
+  <div class="testimonial-col">
+    <img src="images/student1.jfif">
+    <div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nihil, dignissimos cupiditate asperiores necessitatibus corrupti iste excepturi praesentium non in modi soluta. Deserunt, repellendus?
+      </p>
+      <h3>
+        Christine jones
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </h3>
+    </div>
+  </div>
+  <div class="testimonial-col">
+    <img src="images/student2.jfif">
+    <div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nihil, dignissimos cupiditate asperiores necessitatibus corrupti iste excepturi praesentium non in modi soluta. Deserunt, repellendus?
+      </p>
+      <h3>
+        Andrew Merkley
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </h3>
+    </div>
+  </div>
+</div>
+</section>
+<section class="cta">
+<!-----------Call To Action--------->
+<h1>
+  Enroll in our various online courses from anywhere in the world
+</h1>
+  <a href="hero-btn">CONTACT US</a>
+  </section>
+  <!-----------Footer--------->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ex, amet <br>voluptas animi perspiciatis quae! Laboriosam nulla cumque hic suscipit!
+    </p>
+        <!-- Fixed: Only one .icons container, all icons inside -->
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <p>
+          Made with <i class="fa fa-heart"></i> by EasyTutorials
+        </p>
+  </section>
+</body>
+</html>
